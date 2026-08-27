@@ -1,0 +1,23 @@
+{
+  "message": [
+  "https://images.dog.ceo/breeds/hound-afghan/n02088094_2062.jpg",
+  "https://images.dog.ceo/breeds/hound-basset/n02088238_9520.jpg"
+   ],
+  "status":"success"
+}
+
+
+[
+   {
+	"id": "5hs",
+	"url": "https://s3.us-west-2.amazonaws.com/cdn2.thecatapi.com/images/5hs.jpg",
+	"width": 640,
+	"height": 441
+	},
+	{
+	"id": "MTk3NjM0NQ",
+	"url": "https://s3.us-west-2.amazonaws.com/cdn2.thecatapi.com/images/MTk3NjM0NQ.jpg",
+	"width": 721,
+	"height": 1051
+   }
+]
