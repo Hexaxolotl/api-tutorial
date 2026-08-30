@@ -1,0 +1,21 @@
+[
+    {
+        "length": "15 to 20 inches, not including tail",
+        "origin": "Thailand",
+        "image_link": "https://api-ninjas.com/images/cats/siamese_cat.jpg",
+        "family_friendly": 5,
+        "shedding": 2,
+        "general_health": 3,
+        "playfulness": 4,
+        "meowing": 5,
+        "children_friendly": 4,
+        "grooming": 4,
+        "intelligence": 5,
+        "other_pets_friendly": 4,
+        "min_weight": 6.0,
+        "max_weight": 14.0,
+        "min_life_expectancy": 8.0,
+        "max_life_expectancy": 15.0,
+        "name": "Siamese Cat"
+    }
+]
