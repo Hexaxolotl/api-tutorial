@@ -7,7 +7,21 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	
-	<body>  
+	<body id="top">  
+		<nav>
+			<ul>
+				<li><strong>API Journal</strong></li>
+			</ul>
+			<ul>
+				<li><a href="#day1">Day 1</a></li>
+				<li><a href="#day2">Day 2</a></li>
+				<li><a href="#menu">Coffee Menu</a></li>
+				<li><a href="#statusCode">Status Code</a></li>
+				<li><a href="#apiKey">API Key</a></li>
+				<li><a href="#top">Top</a></li>
+				<li><a href="#api-quiz">Quiz</a></li>
+			</ul>
+		</nav>
 		<header>
 			<h1>API Learning Journal</h1>
 		</header>
@@ -30,7 +44,7 @@
 				
 			</section>
 			
-			<section class="card">
+			<section class="card" id="day1">
 				<h2>Day 1 -Reflection</h2>
 				
 				<h3>Something challenging</h3>
@@ -42,7 +56,7 @@
 			</section>
 			
 			
-			<section class="card">
+			<section class="card" id="day2">
 				<h2>Day 2 -Reflection</h2>
 				
 				<p>I practiced on the websites, postman and API Ninjas.</p>
@@ -55,7 +69,7 @@
 			</section>
 			
 			
-			<section class="card">
+			<section class="card" id="menu">
 				<h2>Day 3 -Reflection</h2>
 				<h2>A menu that arrived already laid out</h2>
 				<img src="images/postman-coffee-menu.png" 
@@ -156,10 +170,160 @@
 				</code></pre>
 			</section>
 			
+			<section class="card" id="statusCode">
+				<h2> Status Codes </h2>
+				<img src="images/statusCode200.png" 
+				alt="Postman showing a GET to api-ninjas with a 200 status and a response showing cat breed information"
+				>
+				<p>I learned that a status code tells me how the API request went. <br> The picture above shows a status code of 200, this means the request was successful.</p>
+			</section>
 			
-		</main>
-		<footer>
-			 <p>Made by Alana — API Learning Journal</p>
-		</footer>
-	</body>
-</html>
+			
+			<section class= "card" id="apiKey">
+				<h2>API keys belong in headers</h2>
+				<img src="images/statusCode400.png" 
+				alt="Postman showing a GET to api-ninjas with a 400 status and an error message."
+				>
+				<p>I learned some APIs need an API key before they will return the requested information. Without the API key I got an 400 status code, showing a "error: missing API key".</p>
+				<p>After adding the API key to the x-api-key header, I was able to resovle this status code.</p>
+				
+				
+			</section>
+			
+			<section class="card" id="api-quiz">
+				<h2>API Knowledge Quiz</h2>
+				<p>Test what I’ve learned so far:</p>
+				
+				<div id="carousel">
+					
+					<!-- Question 1 -->
+					<div class="quiz-slide active">
+						<p class="question">1. What does an API do?</p>
+						<p class="feedback"></p>
+						
+						<div class="choice-list">
+							<button class="choice" data-answer="wrong">It stores data in a database.</button>
+							<button class="choice" data-answer="correct">It lets one program request data or actions from another program.</button>
+							<button class="choice" data-answer="wrong">It formats text into JSON.</button>
+						</div>
+						
+						<button class="next-btn">Next</button>
+					</div>
+					
+					<!-- Question 2 -->
+					<div class="quiz-slide">
+						<p class="question">2. What makes JSON a “strict” data format?</p>
+						<p class="feedback"></p>
+						
+						<div class="choice-list">
+							<button class="choice" data-answer="wrong">It can only store numbers.</button>
+							<button class="choice" data-answer="correct">Keys must be in double quotes and no trailing commas allowed.</button>
+							<button class="choice" data-answer="wrong">It only works inside browsers.</button>
+						</div>
+						
+						<button class="next-btn">Next</button>
+					</div>
+					
+					<!-- Question 3 -->
+					<div class="quiz-slide">
+						<p class="question">3. What does HTTP status code 200 mean?</p>
+						<p class="feedback"></p>
+						
+						<div class="choice-list">
+							<button class="choice" data-answer="wrong">The API key is invalid.</button>
+							<button class="choice" data-answer="correct">The request succeeded.</button>
+							<button class="choice" data-answer="wrong">The server is offline.</button>
+						</div>
+						
+						<button class="next-btn">Next</button>
+					</div>
+					
+					<!-- Question 4 -->
+					<div class="quiz-slide">
+						<p class="question">4. What is an HTTP header?</p>
+						<p class="feedback"></p>
+						
+						<div class="choice-list">
+							<button class="choice" data-answer="wrong">A type of API error.</button>
+							<button class="choice" data-answer="wrong">The first line of a JSON file.</button>
+							<button class="choice" data-answer="correct">A labeled piece of information sent with a request or response.</button>
+						</div>
+						
+						<button class="next-btn">Next</button>
+					</div>
+					
+					<!-- Question 5 -->
+					<div class="quiz-slide">
+						<p class="question">5. What is an API key used for?</p>
+						<p class="feedback"></p>
+						
+						<div class="choice-list">
+							<button class="choice" data-answer="wrong">Formatting URLs.</button>
+							<button class="choice" data-answer="correct">Identifying which account is making the API request.</button>
+							<button class="choice" data-answer="wrong">Encrypting JSON.</button>
+						</div>
+						
+						<button class="next-btn">Next</button>
+					</div>
+					
+					<!-- Question 6 -->
+					<div class="quiz-slide">
+						<p class="question">6. What is a function parameter?</p>
+						<p class="feedback"></p>
+						
+						<div class="choice-list">
+							<button class="choice" data-answer="wrong">A JavaScript error.</button>
+							<button class="choice" data-answer="correct">A variable created inside the parentheses of a function definition.</button>
+							<button class="choice" data-answer="wrong">The value passed into a function.</button>
+						</div>
+						
+						<button class="next-btn">Next</button>
+					</div>
+					
+					<!-- Question 7 -->
+					<div class="quiz-slide">
+						<p class="question">7. What is a function argument?</p>
+						<p class="feedback"></p>
+						
+						<div class="choice-list">
+							<button class="choice" data-answer="wrong">A JSON property.</button>
+							<button class="choice" data-answer="wrong">A variable created inside a function.</button>
+							<button class="choice" data-answer="correct">The actual value you pass into a function when calling it.</button>
+						</div>
+						
+						<button class="next-btn">Next</button>
+					</div>
+					
+					<!-- Question 8 -->
+					<div class="quiz-slide">
+						<p class="question">8. What does JavaScript return when a value is missing?</p>
+						<p class="feedback"></p>
+						
+						<div class="choice-list">
+							<button class="choice" data-answer="wrong">0</button>
+							<button class="choice" data-answer="correct">undefined</button>
+							<button class="choice" data-answer="wrong">null</button>
+						</div>
+						
+						<button class="next-btn">Next</button>
+					</div>
+					
+					<!-- SCORE SLIDE -->
+					<div class="quiz-slide" id="score-slide">
+						<h2>Your Score</h2>
+						<p class="final-score"></p>
+						
+						<button class="try-again-btn final-restart">Try Again</button>
+					</div>
+					
+				</div>
+			</section>
+			
+			<footer class="footer">
+				<p>API Learning Journal — Alana</p>
+			</footer>
+			
+			<script src="scripts/script.js"></script>
+			
+		</body>
+	</html>		
